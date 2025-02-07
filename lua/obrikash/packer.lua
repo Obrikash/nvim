@@ -30,5 +30,7 @@ use({'hrsh7th/nvim-cmp'})
 use({'hrsh7th/cmp-nvim-lsp'})
 use({'williamboman/mason.nvim'})
 use({'williamboman/mason-lspconfig.nvim'})
-
+use({'L3MON4D3/LuaSnip'})
+use({'andweeb/presence.nvim'})
+use('github/copilot.vim')
 end)
