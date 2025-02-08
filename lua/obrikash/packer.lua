@@ -33,4 +33,14 @@ use({'williamboman/mason-lspconfig.nvim'})
 use({'L3MON4D3/LuaSnip'})
 use({'andweeb/presence.nvim'})
 use('github/copilot.vim')
+use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = false }
+}
+use {
+  'nvim-tree/nvim-tree.lua',
+  requires = {
+    'nvim-tree/nvim-web-devicons', -- optional
+  },
+}
 end)
